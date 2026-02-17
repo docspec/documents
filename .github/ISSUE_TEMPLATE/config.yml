@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DocSpec Main Repository
+    url: https://github.com/docspec/docspec
+    about: Visit the main DocSpec project repository

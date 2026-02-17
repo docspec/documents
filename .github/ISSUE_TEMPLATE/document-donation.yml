@@ -1,0 +1,161 @@
+name: Document Donation
+description: Donate a document for DocSpec testing
+title: "[DONATION] "
+labels: ["donation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for donating a document!
+
+        Please fill out the information below. We'll review and add your document to the repository with proper attribution.
+
+  - type: input
+    id: title
+    attributes:
+      label: Document Title
+      description: What is the title of the document?
+      placeholder: e.g., "Introduction to Functional Programming"
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Who created this document?
+      placeholder: e.g., "Jane Smith" or "University of Example"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: What license is this document under?
+      options:
+        - CC0 (Public Domain)
+        - CC-BY-4.0
+        - CC-BY-SA-4.0
+        - CC-BY-NC-4.0
+        - CC-BY-NC-SA-4.0
+        - MIT
+        - Apache-2.0
+        - GPL-3.0
+        - GPL-2.0
+        - LGPL-3.0
+        - BSD-2-Clause
+        - BSD-3-Clause
+        - Other (specify in notes)
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Where was this document originally published? (if available)
+      placeholder: https://example.com/original-document
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: What format is the document in?
+      options:
+        - docx (Microsoft Word)
+        - odt (OpenDocument Text)
+        - pdf
+        - md (Markdown)
+        - html
+        - epub
+        - tex (LaTeX)
+        - rtf (Rich Text Format)
+        - txt (Plain Text)
+        - org (Org-mode)
+        - adoc (AsciiDoc)
+        - rst (reStructuredText)
+        - Other (specify in notes)
+    validations:
+      required: true
+
+  - type: input
+    id: suggested_group
+    attributes:
+      label: Suggested Group
+      description: Where should this document go? (e.g., examples, academic, tutorials, etc.)
+      placeholder: examples
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Keywords describing the document (comma-separated)
+      placeholder: tables, images, formatting, complex-layout
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the document content
+      placeholder: This document demonstrates complex table layouts with merged cells and embedded images...
+    validations:
+      required: false
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Special Features
+      description: What makes this document interesting for testing?
+      placeholder: |
+        - Complex nested tables
+        - Mathematical equations
+        - Multiple languages
+        - Footnotes and endnotes
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other information we should know?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your Relationship
+      description: What's your relationship to this document?
+      options:
+        - I am the author
+        - I found it online (public)
+        - I translated it
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      description: Please confirm the following
+      options:
+        - label: This document is openly licensed and permits redistribution and derivative works
+          required: true
+        - label: Attribution information is accurate and complete
+          required: true
+        - label: I have the right to share this document under its license
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Next Step**: After submitting, please attach your document file or provide a download link in a comment below.

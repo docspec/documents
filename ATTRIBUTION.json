@@ -1,0 +1,24 @@
+[
+  {
+    "format": "odt",
+    "path": "documents/odt/pandoc/*.odt",
+    "title": "Pandoc ODT Test Suite",
+    "author": "John MacFarlane and Pandoc contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/jgm/pandoc",
+    "tags": ["pandoc"],
+    "donated": "2026-02-17",
+    "notes": "Test set from Pandoc"
+  },
+  {
+    "format": "docx",
+    "path": "documents/docx/pandoc/*.docx",
+    "title": "Pandoc DOCX Test Suite",
+    "author": "John MacFarlane and Pandoc contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/jgm/pandoc",
+    "tags": ["pandoc"],
+    "donated": "2026-02-17",
+    "notes": "Test set from Pandoc"
+  }
+]
