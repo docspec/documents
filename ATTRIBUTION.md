@@ -30,3 +30,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-02-17
 - **Notes**: Test set from Pandoc
 
+---
+
+## Handreiking Standaard Verwerkersovereenkomst (VWO) Gemeenten
+
+- **Format**: `docx`
+- **Path**: `documents/docx/vng/202512-Standaard-VWO-v2.53.docx`
+- **Author**: VNG
+- **License**: CC-BY-NC-SA-4.0
+- **Source**: https://www.informatiebeveiligingsdienst.nl/product/handreiking-standaard-verwerkersovereenkomst-gemeenten/
+- **Tags**: `vng`
+- **Donated**: 2026-02-17
+- **Notes**: Donated via issue #5
+

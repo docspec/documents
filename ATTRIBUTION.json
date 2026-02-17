@@ -20,5 +20,16 @@
     "tags": ["pandoc"],
     "donated": "2026-02-17",
     "notes": "Test set from Pandoc"
+  },
+  {
+    "format": "docx",
+    "path": "documents/docx/vng/202512-Standaard-VWO-v2.53.docx",
+    "title": "Handreiking Standaard Verwerkersovereenkomst (VWO) Gemeenten",
+    "author": "VNG",
+    "license": "CC-BY-NC-SA-4.0",
+    "source": "https://www.informatiebeveiligingsdienst.nl/product/handreiking-standaard-verwerkersovereenkomst-gemeenten/",
+    "tags": ["vng"],
+    "donated": "2026-02-17",
+    "notes": "Donated via issue #5"
   }
 ]
