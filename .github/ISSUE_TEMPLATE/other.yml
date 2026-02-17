@@ -1,0 +1,27 @@
+name: Other
+description: Bug report, feature request, or anything else
+title: "[OTHER] "
+labels: ["other"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Got something to share?
+
+        Use this for bug reports, feature requests, or anything else that doesn't fit the other templates.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What would you like to discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other information that might be helpful
+    validations:
+      required: false
