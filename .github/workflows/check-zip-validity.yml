@@ -1,0 +1,36 @@
+name: Check ZIP Validity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'documents/**/*.odt'
+      - 'documents/**/*.docx'
+      - 'documents/**/*.epub'
+      - 'bin/check-zip-validity.sh'
+      - '.github/workflows/check-zip-validity.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'documents/**/*.odt'
+      - 'documents/**/*.docx'
+      - 'documents/**/*.epub'
+      - 'bin/check-zip-validity.sh'
+      - '.github/workflows/check-zip-validity.yml'
+
+jobs:
+  check-zip:
+    name: Validate ZIP Structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install unzip
+        run: sudo apt-get update && sudo apt-get install -y unzip
+
+      - name: Check ZIP validity
+        run: ./bin/check-zip-validity.sh
