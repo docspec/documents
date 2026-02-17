@@ -1,0 +1,30 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ATTRIBUTION.json'
+      - 'bin/validate-licenses.sh'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'ATTRIBUTION.json'
+      - 'bin/validate-licenses.sh'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  validate-licenses:
+    name: Validate SPDX Licenses
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Validate licenses
+        run: ./bin/validate-licenses.sh
