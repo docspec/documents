@@ -31,5 +31,16 @@
     "tags": ["vng-ibd", "vng"],
     "donated": "2026-02-17",
     "notes": "Scraped from their website"
+  },
+  {
+    "format": "docx",
+    "path": "documents/docx/docspec/*.docx",
+    "title": "DocSpec DOCX Test Suite",
+    "author": "DocSpec",
+    "license": "CC-BY-NC-SA-4.0",
+    "source": "https://github.com/docspec/documents",
+    "tags": ["docspec"],
+    "donated": "2026-02-17",
+    "notes": "Test fixtures originating from NLdoc"
   }
 ]
