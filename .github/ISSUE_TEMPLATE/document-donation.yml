@@ -1,4 +1,4 @@
-name: Document Donation
+name: Donate a document
 description: Donate a document for DocSpec testing
 title: "[DONATION] "
 labels: ["donation"]
@@ -10,14 +10,22 @@ body:
 
         Please fill out the information below. We'll review and add your document to the repository with proper attribution.
 
+  - type: textarea
+    id: files
+    attributes:
+      label: Files
+      description: You can upload the files in here or refer to where to find them.
+    validations:
+      required: true
+
   - type: input
     id: title
     attributes:
-      label: Document Title
+      label: Document title
       description: What is the title of the document?
       placeholder: e.g., "Introduction to Functional Programming"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: author
@@ -56,6 +64,8 @@ body:
       label: Source URL
       description: Where was this document originally published? (if available)
       placeholder: https://example.com/original-document
+    validations:
+      required: false
 
   - type: dropdown
     id: format
@@ -82,7 +92,7 @@ body:
   - type: input
     id: suggested_group
     attributes:
-      label: Suggested Group
+      label: Suggested group
       description: Where should this document go? (e.g., examples, academic, tutorials, etc.)
       placeholder: examples
     validations:
@@ -109,7 +119,7 @@ body:
   - type: textarea
     id: features
     attributes:
-      label: Special Features
+      label: Features
       description: What makes this document interesting for testing?
       placeholder: |
         - Complex nested tables
@@ -122,7 +132,7 @@ body:
   - type: textarea
     id: notes
     attributes:
-      label: Additional Notes
+      label: Additional notes
       description: Any other information we should know?
     validations:
       required: false
@@ -130,7 +140,7 @@ body:
   - type: dropdown
     id: relationship
     attributes:
-      label: Your Relationship
+      label: Your relationship
       description: What's your relationship to this document?
       options:
         - I am the author
@@ -152,10 +162,3 @@ body:
           required: true
         - label: I have the right to share this document under its license
           required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-
-        **Next Step**: After submitting, please attach your document file or provide a download link in a comment below.
