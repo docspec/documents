@@ -43,3 +43,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-02-17
 - **Notes**: Scraped from their website
 
+---
+
+## DocSpec DOCX Test Suite
+
+- **Format**: `docx`
+- **Path**: `documents/docx/docspec/*.docx`
+- **Author**: DocSpec
+- **License**: CC-BY-NC-SA-4.0
+- **Source**: https://github.com/docspec/documents
+- **Tags**: `docspec`
+- **Donated**: 2026-02-17
+- **Notes**: Test fixtures originating from NLdoc
+
