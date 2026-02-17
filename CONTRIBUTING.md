@@ -1,12 +1,12 @@
-# Contributing Documents
+# Contributing documents
 
 Thank you for helping improve DocSpec by donating test documents!
 
-## Quick Start
+## Quick start
 
 **The easiest way**: [Create a "Document Donation" issue](../../issues/new/choose) and fill out the form. We'll handle adding it to the repository.
 
-## What You Need
+## What you need
 
 Before donating, make sure your document:
 
@@ -15,7 +15,7 @@ Before donating, make sure your document:
 3. ✅ Has proper attribution to the original author
 4. ✅ Can be published in a public Git repository
 
-## Accepted Licenses
+## Accepted licenses
 
 - Public Domain (CC0, Unlicense)
 - Creative Commons: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA
@@ -25,11 +25,11 @@ Before donating, make sure your document:
 - BSD licenses (2-Clause, 3-Clause)
 - Other OSI or FSF approved licenses
 
-❌ **Not accepted**: All Rights Reserved, CC-BY-ND (No Derivatives), proprietary licenses, confidential or proprietary documents
+❌ **Not accepted**: All Rights Reserved, CC-BY-ND (No Derivatives), confidential or proprietary documents
 
-## Donation Methods
+## Donation methods
 
-### Method 1: GitHub Issue (Recommended)
+### Method 1: GitHub issue (recommended)
 
 1. Go to [Issues](../../issues/new/choose)
 2. Select "Document Donation"
@@ -61,7 +61,7 @@ For those comfortable with Git:
 
 See the [Directory Structure](#directory-structure) section below.
 
-## Directory Structure
+## Directory structure
 
 ```
 documents/<format>/<group>/<filename>.<ext>
@@ -86,7 +86,7 @@ documents/html/websites/landing-page.html
 documents/epub/books/sample-ebook.epub
 ```
 
-### Suggested Groups
+### Suggested groups
 
 - `academic` - Research papers, theses
 - `books` - Book chapters, manuscripts
@@ -99,11 +99,11 @@ documents/epub/books/sample-ebook.epub
 
 Feel free to create new groups as needed!
 
-## Attribution Format
+## Attribution format
 
 When adding entries, edit `ATTRIBUTION.json` (the `ATTRIBUTION.md` file is generated from it).
 
-### ATTRIBUTION.json Format
+### `ATTRIBUTION.json` Format
 
 ```json
 {
@@ -119,7 +119,7 @@ When adding entries, edit `ATTRIBUTION.json` (the `ATTRIBUTION.md` file is gener
 }
 ```
 
-## What Makes a Good Test Document?
+## What makes a good test document?
 
 Ideal documents have:
 
