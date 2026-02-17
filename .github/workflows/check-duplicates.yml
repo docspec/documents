@@ -1,0 +1,29 @@
+name: Check Duplicates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'documents/**'
+      - 'bin/check-duplicates.sh'
+      - '.github/workflows/check-duplicates.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'documents/**'
+      - 'bin/check-duplicates.sh'
+      - '.github/workflows/check-duplicates.yml'
+
+jobs:
+  check-duplicates:
+    name: Check for Duplicate Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Check for duplicates
+        run: ./bin/check-duplicates.sh
