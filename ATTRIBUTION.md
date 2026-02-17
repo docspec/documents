@@ -32,14 +32,14 @@ This file tracks all donated documents, their authors, licenses, and sources.
 
 ---
 
-## Handreiking Standaard Verwerkersovereenkomst (VWO) Gemeenten
+## Various documents from VNG Informatiebeveiligingsdiensnt
 
 - **Format**: `docx`
-- **Path**: `documents/docx/vng/202512-Standaard-VWO-v2.53.docx`
-- **Author**: VNG
+- **Path**: `documents/docx/vng-ibd/*.docx`
+- **Author**: Vereniging van Nederlandse Gemeenten / Informatiebeveiligingsdienst voor gemeenten
 - **License**: CC-BY-NC-SA-4.0
-- **Source**: https://www.informatiebeveiligingsdienst.nl/product/handreiking-standaard-verwerkersovereenkomst-gemeenten/
-- **Tags**: `vng`
+- **Source**: https://www.informatiebeveiligingsdienst.nl/
+- **Tags**: `vng-ibd`, `vng`
 - **Donated**: 2026-02-17
-- **Notes**: Donated via issue #5
+- **Notes**: Scraped from their website
 
