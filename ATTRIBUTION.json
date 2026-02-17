@@ -23,13 +23,13 @@
   },
   {
     "format": "docx",
-    "path": "documents/docx/vng/202512-Standaard-VWO-v2.53.docx",
-    "title": "Handreiking Standaard Verwerkersovereenkomst (VWO) Gemeenten",
-    "author": "VNG",
+    "path": "documents/docx/vng-ibd/*.docx",
+    "title": "Various documents from VNG Informatiebeveiligingsdiensnt",
+    "author": "Vereniging van Nederlandse Gemeenten / Informatiebeveiligingsdienst voor gemeenten",
     "license": "CC-BY-NC-SA-4.0",
-    "source": "https://www.informatiebeveiligingsdienst.nl/product/handreiking-standaard-verwerkersovereenkomst-gemeenten/",
-    "tags": ["vng"],
+    "source": "https://www.informatiebeveiligingsdienst.nl/",
+    "tags": ["vng-ibd", "vng"],
     "donated": "2026-02-17",
-    "notes": "Donated via issue #5"
+    "notes": "Scraped from their website"
   }
 ]
