@@ -23,7 +23,7 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
-from utils import sanitize_filename  # noqa: E402
+from utils import sanitize_filename, rate_limit  # noqa: E402
 
 REPO_ROOT = Path(__file__).parent.parent
 DOCUMENTS_DIR = REPO_ROOT / "documents" / "html"
@@ -241,7 +241,7 @@ def scrape_h5bp() -> int:
             continue
         print(f"  GET {filename}")
         try:
-            time.sleep(0.5)
+            rate_limit(2.0)
             resp = SESSION.get(raw_url, timeout=30)
             resp.raise_for_status()
             content = resp.content
