@@ -80,7 +80,7 @@
       "test-fixtures"
     ],
     "donated": "2026-04-01",
-    "notes": "RTF import/export test data from LibreOffice Writer QA"
+    "notes": "RTF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)"
   },
   {
     "format": "doc",
@@ -118,7 +118,7 @@
     "path": "documents/html/mdn-learning-area/*.html",
     "title": "MDN Learning Area HTML Examples",
     "author": "Mozilla Developer Network contributors",
-    "license": "CC-BY-SA-2.5",
+    "license": "CC0-1.0",
     "source": "https://github.com/mdn/learning-area",
     "tags": [
       "mdn",
@@ -134,7 +134,7 @@
     "path": "documents/html/wpt/*.html",
     "title": "W3C Web Platform Tests HTML Fixtures",
     "author": "W3C Web Platform Tests contributors",
-    "license": "W3C-20150513",
+    "license": "BSD-3-Clause",
     "source": "https://github.com/web-platform-tests/wpt",
     "tags": [
       "w3c",
@@ -169,7 +169,11 @@
     "author": "John MacFarlane and CommonMark contributors",
     "license": "CC-BY-SA-4.0",
     "source": "https://github.com/commonmark/commonmark-spec",
-    "tags": ["commonmark", "spec", "markdown"],
+    "tags": [
+      "commonmark",
+      "spec",
+      "markdown"
+    ],
     "donated": "2026-04-01",
     "notes": "Sections extracted from the CommonMark specification (spec.txt)"
   },
@@ -178,21 +182,29 @@
     "path": "documents/markdown/rust-book/*.md",
     "title": "The Rust Programming Language Book",
     "author": "Steve Klabnik, Carol Nichols, and the Rust community",
-    "license": "CC-BY-4.0",
+    "license": "MIT",
     "source": "https://github.com/rust-lang/book",
-    "tags": ["rust", "book", "programming"],
+    "tags": [
+      "rust",
+      "book",
+      "programming"
+    ],
     "donated": "2026-04-01",
-    "notes": "Chapter files from the official Rust programming language book"
+    "notes": "Chapter files from the official Rust programming language book (dual-licensed MIT/Apache-2.0)"
   },
   {
     "format": "markdown",
     "path": "documents/markdown/docusaurus/*.md",
     "title": "Docusaurus Documentation",
     "author": "Meta Platforms, Inc. and Docusaurus contributors",
-    "license": "MIT",
+    "license": "CC-BY-4.0",
     "source": "https://github.com/facebook/docusaurus",
-    "tags": ["docusaurus", "documentation", "static-site"],
+    "tags": [
+      "docusaurus",
+      "documentation",
+      "static-site"
+    ],
     "donated": "2026-04-01",
-    "notes": "Documentation pages from the Docusaurus website docs (MDX saved as .md)"
+    "notes": "Documentation pages from the Docusaurus website docs (MDX saved as .md; docs are CC-BY-4.0 per LICENSE-docs, code is MIT)"
   }
 ]

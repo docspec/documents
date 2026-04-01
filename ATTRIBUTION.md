@@ -80,7 +80,7 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Source**: https://github.com/LibreOffice/core
 - **Tags**: `libreoffice`, `rtf`, `test-fixtures`
 - **Donated**: 2026-04-01
-- **Notes**: RTF import/export test data from LibreOffice Writer QA
+- **Notes**: RTF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)
 
 ---
 
@@ -115,7 +115,7 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Format**: `html`
 - **Path**: `documents/html/mdn-learning-area/*.html`
 - **Author**: Mozilla Developer Network contributors
-- **License**: CC-BY-SA-2.5
+- **License**: CC0-1.0
 - **Source**: https://github.com/mdn/learning-area
 - **Tags**: `mdn`, `html`, `examples`, `educational`
 - **Donated**: 2026-04-01
@@ -128,7 +128,7 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Format**: `html`
 - **Path**: `documents/html/wpt/*.html`
 - **Author**: W3C Web Platform Tests contributors
-- **License**: W3C-20150513
+- **License**: BSD-3-Clause
 - **Source**: https://github.com/web-platform-tests/wpt
 - **Tags**: `w3c`, `wpt`, `html`, `test-fixtures`, `semantics`
 - **Donated**: 2026-04-01
@@ -167,11 +167,11 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Format**: `markdown`
 - **Path**: `documents/markdown/rust-book/*.md`
 - **Author**: Steve Klabnik, Carol Nichols, and the Rust community
-- **License**: CC-BY-4.0
+- **License**: MIT
 - **Source**: https://github.com/rust-lang/book
 - **Tags**: `rust`, `book`, `programming`
 - **Donated**: 2026-04-01
-- **Notes**: Chapter files from the official Rust programming language book
+- **Notes**: Chapter files from the official Rust programming language book (dual-licensed MIT/Apache-2.0)
 
 ---
 
@@ -180,9 +180,9 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Format**: `markdown`
 - **Path**: `documents/markdown/docusaurus/*.md`
 - **Author**: Meta Platforms, Inc. and Docusaurus contributors
-- **License**: MIT
+- **License**: CC-BY-4.0
 - **Source**: https://github.com/facebook/docusaurus
 - **Tags**: `docusaurus`, `documentation`, `static-site`
 - **Donated**: 2026-04-01
-- **Notes**: Documentation pages from the Docusaurus website docs (MDX saved as .md)
+- **Notes**: Documentation pages from the Docusaurus website docs (MDX saved as .md; docs are CC-BY-4.0 per LICENSE-docs, code is MIT)
 
