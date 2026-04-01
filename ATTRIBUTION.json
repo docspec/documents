@@ -161,5 +161,38 @@
     ],
     "donated": "2026-04-01",
     "notes": "Starter HTML templates from the HTML5 Boilerplate project (v6, v7, main)"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/commonmark/*.md",
+    "title": "CommonMark Spec Sections",
+    "author": "John MacFarlane and CommonMark contributors",
+    "license": "CC-BY-SA-4.0",
+    "source": "https://github.com/commonmark/commonmark-spec",
+    "tags": ["commonmark", "spec", "markdown"],
+    "donated": "2026-04-01",
+    "notes": "Sections extracted from the CommonMark specification (spec.txt)"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/rust-book/*.md",
+    "title": "The Rust Programming Language Book",
+    "author": "Steve Klabnik, Carol Nichols, and the Rust community",
+    "license": "CC-BY-4.0",
+    "source": "https://github.com/rust-lang/book",
+    "tags": ["rust", "book", "programming"],
+    "donated": "2026-04-01",
+    "notes": "Chapter files from the official Rust programming language book"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/docusaurus/*.md",
+    "title": "Docusaurus Documentation",
+    "author": "Meta Platforms, Inc. and Docusaurus contributors",
+    "license": "MIT",
+    "source": "https://github.com/facebook/docusaurus",
+    "tags": ["docusaurus", "documentation", "static-site"],
+    "donated": "2026-04-01",
+    "notes": "Documentation pages from the Docusaurus website docs (MDX saved as .md)"
   }
 ]
