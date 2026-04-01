@@ -96,5 +96,21 @@
     ],
     "donated": "2026-04-01",
     "notes": "Test fixtures for the Apache POI HWPF Word processor module"
+  },
+  {
+    "format": "epub",
+    "path": "documents/epub/standard-ebooks/*.epub",
+    "title": "Standard Ebooks Collection",
+    "author": "Various (original works in public domain; ebook production by Standard Ebooks contributors)",
+    "license": "CC0-1.0",
+    "source": "https://standardebooks.org",
+    "tags": [
+      "standard-ebooks",
+      "epub",
+      "public-domain",
+      "literature"
+    ],
+    "donated": "2026-04-01",
+    "notes": "High-quality EPUB ebooks from Standard Ebooks (CC0-1.0 production, public domain source texts)"
   }
 ]
