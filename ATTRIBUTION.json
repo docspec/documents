@@ -81,5 +81,20 @@
     ],
     "donated": "2026-04-01",
     "notes": "RTF import/export test data from LibreOffice Writer QA"
+  },
+  {
+    "format": "doc",
+    "path": "documents/doc/apache-poi/*.doc",
+    "title": "Apache POI HWPF Test Documents",
+    "author": "Apache POI contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/poi",
+    "tags": [
+      "apache-poi",
+      "hwpf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Test fixtures for the Apache POI HWPF Word processor module"
   }
 ]
