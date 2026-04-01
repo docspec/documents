@@ -6,7 +6,9 @@
     "author": "John MacFarlane and Pandoc contributors",
     "license": "GPL-2.0-or-later",
     "source": "https://github.com/jgm/pandoc",
-    "tags": ["pandoc"],
+    "tags": [
+      "pandoc"
+    ],
     "donated": "2026-02-17",
     "notes": "Test set from Pandoc"
   },
@@ -17,7 +19,9 @@
     "author": "John MacFarlane and Pandoc contributors",
     "license": "GPL-2.0-or-later",
     "source": "https://github.com/jgm/pandoc",
-    "tags": ["pandoc"],
+    "tags": [
+      "pandoc"
+    ],
     "donated": "2026-02-17",
     "notes": "Test set from Pandoc"
   },
@@ -28,7 +32,10 @@
     "author": "Vereniging van Nederlandse Gemeenten / Informatiebeveiligingsdienst voor gemeenten",
     "license": "CC-BY-NC-SA-4.0",
     "source": "https://www.informatiebeveiligingsdienst.nl/",
-    "tags": ["vng-ibd", "vng"],
+    "tags": [
+      "vng-ibd",
+      "vng"
+    ],
     "donated": "2026-02-17",
     "notes": "Scraped from their website"
   },
@@ -39,8 +46,192 @@
     "author": "DocSpec",
     "license": "CC-BY-NC-SA-4.0",
     "source": "https://github.com/docspec/documents",
-    "tags": ["docspec"],
+    "tags": [
+      "docspec"
+    ],
     "donated": "2026-02-17",
     "notes": "Test fixtures originating from NLdoc"
+  },
+  {
+    "format": "rtf",
+    "path": "documents/rtf/pandoc/*.rtf",
+    "title": "Pandoc RTF Test Suite",
+    "author": "John MacFarlane and Pandoc contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/jgm/pandoc",
+    "tags": [
+      "pandoc",
+      "rtf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "RTF test fixtures from the Pandoc document converter test suite"
+  },
+  {
+    "format": "rtf",
+    "path": "documents/rtf/libreoffice/*.rtf",
+    "title": "LibreOffice Writer RTF Test Data",
+    "author": "The Document Foundation and LibreOffice contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/LibreOffice/core",
+    "tags": [
+      "libreoffice",
+      "rtf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "RTF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)"
+  },
+  {
+    "format": "doc",
+    "path": "documents/doc/apache-poi/*.doc",
+    "title": "Apache POI HWPF Test Documents",
+    "author": "Apache POI contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/poi",
+    "tags": [
+      "apache-poi",
+      "hwpf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Test fixtures for the Apache POI HWPF Word processor module"
+  },
+  {
+    "format": "epub",
+    "path": "documents/epub/standard-ebooks/*.epub",
+    "title": "Standard Ebooks Collection",
+    "author": "Various (original works in public domain; ebook production by Standard Ebooks contributors)",
+    "license": "CC0-1.0",
+    "source": "https://standardebooks.org",
+    "tags": [
+      "standard-ebooks",
+      "epub",
+      "public-domain",
+      "literature"
+    ],
+    "donated": "2026-04-01",
+    "notes": "High-quality EPUB ebooks from Standard Ebooks (CC0-1.0 production, public domain source texts)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/mdn-learning-area/*.html",
+    "title": "MDN Learning Area HTML Examples",
+    "author": "Mozilla Developer Network contributors",
+    "license": "CC0-1.0",
+    "source": "https://github.com/mdn/learning-area",
+    "tags": [
+      "mdn",
+      "html",
+      "examples",
+      "educational"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Standalone HTML examples from MDN Web Docs learning area (introduction-to-html, multimedia-and-embedding, tables, forms)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/wpt/*.html",
+    "title": "W3C Web Platform Tests HTML Fixtures",
+    "author": "W3C Web Platform Tests contributors",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/web-platform-tests/wpt",
+    "tags": [
+      "w3c",
+      "wpt",
+      "html",
+      "test-fixtures",
+      "semantics"
+    ],
+    "donated": "2026-04-01",
+    "notes": "HTML test fixtures from the W3C Web Platform Tests project (html/semantics subdirectories)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/html5-boilerplate/*.html",
+    "title": "HTML5 Boilerplate Templates",
+    "author": "HTML5 Boilerplate contributors",
+    "license": "MIT",
+    "source": "https://github.com/h5bp/html5-boilerplate",
+    "tags": [
+      "h5bp",
+      "html5",
+      "boilerplate",
+      "template"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Starter HTML templates from the HTML5 Boilerplate project (v6, v7, main)"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/commonmark/*.md",
+    "title": "CommonMark Spec Sections",
+    "author": "John MacFarlane and CommonMark contributors",
+    "license": "CC-BY-SA-4.0",
+    "source": "https://github.com/commonmark/commonmark-spec",
+    "tags": [
+      "commonmark",
+      "spec",
+      "markdown"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Sections extracted from the CommonMark specification (spec.txt)"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/rust-book/*.md",
+    "title": "The Rust Programming Language Book",
+    "author": "Steve Klabnik, Carol Nichols, and the Rust community",
+    "license": "MIT",
+    "source": "https://github.com/rust-lang/book",
+    "tags": [
+      "rust",
+      "book",
+      "programming"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Chapter files from the official Rust programming language book (dual-licensed MIT/Apache-2.0)"
+  },
+  {
+    "format": "markdown",
+    "path": "documents/markdown/docusaurus/*.md",
+    "title": "Docusaurus Documentation",
+    "author": "Meta Platforms, Inc. and Docusaurus contributors",
+    "license": "CC-BY-4.0",
+    "source": "https://github.com/facebook/docusaurus",
+    "tags": [
+      "docusaurus",
+      "documentation",
+      "static-site"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Documentation pages from the Docusaurus website docs (MDX saved as .md; docs are CC-BY-4.0 per LICENSE-docs, code is MIT)"
+  },
+  {
+    "format": "odt",
+    "path": "documents/odt/libreoffice/*.odt",
+    "title": "LibreOffice Writer ODF Test Data",
+    "author": "The Document Foundation and LibreOffice contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/LibreOffice/core",
+    "tags": [
+      "libreoffice",
+      "odt",
+      "odf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "ODF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)"
+  },
+  {
+    "format": "odt",
+    "path": "documents/odt/odftoolkit/*.odt",
+    "title": "ODF Toolkit Test Documents",
+    "author": "The Apache Software Foundation and ODF Toolkit contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/tdf/odftoolkit",
+    "tags": ["odftoolkit", "odt", "odf", "test-fixtures"],
+    "donated": "2026-04-01",
+    "notes": "ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project"
   }
 ]

@@ -84,6 +84,8 @@ documents/pdf/books/chapter-sample.pdf
 documents/odt/libreoffice/newsletter.odt
 documents/html/websites/landing-page.html
 documents/epub/books/sample-ebook.epub
+documents/doc/apache-poi/test-document.doc
+documents/rtf/pandoc/basic-formatting.rtf
 ```
 
 ### Suggested groups
@@ -96,6 +98,9 @@ documents/epub/books/sample-ebook.epub
 - `pandoc` - Pandoc test cases
 - `libreoffice` - LibreOffice examples
 - `microsoft` - Microsoft Office examples
+- `standard-ebooks` - Standard Ebooks (CC0-licensed EPUB collection)
+- `w3c` - W3C HTML test suite files
+- `apache-poi` - Apache POI test documents (.doc format)
 
 Feel free to create new groups as needed!
 

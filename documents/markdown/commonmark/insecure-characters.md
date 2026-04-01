@@ -1,0 +1,7 @@
+## Insecure characters
+
+
+For security reasons, the Unicode character `U+0000` must be replaced
+with the REPLACEMENT CHARACTER (`U+FFFD`).
+
+
