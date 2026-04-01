@@ -10,7 +10,7 @@ echo ""
 TMPFILE=$(mktemp)
 trap 'rm -f "$TMPFILE"' EXIT
 
-find documents/ -type f \( -name "*.odt" -o -name "*.docx" -o -name "*.pdf" -o -name "*.epub" -o -name "*.md" \) -exec sha256sum {} \; | sort >"$TMPFILE"
+find documents/ -type f \( -name "*.odt" -o -name "*.docx" -o -name "*.pdf" -o -name "*.epub" -o -name "*.md" -o -name "*.doc" -o -name "*.html" -o -name "*.rtf" \) -exec sha256sum {} \; | sort >"$TMPFILE"
 
 DUPLICATES=$(awk '{print $1}' "$TMPFILE" | uniq -d)
 
