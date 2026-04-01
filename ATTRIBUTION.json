@@ -112,5 +112,54 @@
     ],
     "donated": "2026-04-01",
     "notes": "High-quality EPUB ebooks from Standard Ebooks (CC0-1.0 production, public domain source texts)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/mdn-learning-area/*.html",
+    "title": "MDN Learning Area HTML Examples",
+    "author": "Mozilla Developer Network contributors",
+    "license": "CC-BY-SA-2.5",
+    "source": "https://github.com/mdn/learning-area",
+    "tags": [
+      "mdn",
+      "html",
+      "examples",
+      "educational"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Standalone HTML examples from MDN Web Docs learning area (introduction-to-html, multimedia-and-embedding, tables, forms)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/wpt/*.html",
+    "title": "W3C Web Platform Tests HTML Fixtures",
+    "author": "W3C Web Platform Tests contributors",
+    "license": "W3C-20150513",
+    "source": "https://github.com/web-platform-tests/wpt",
+    "tags": [
+      "w3c",
+      "wpt",
+      "html",
+      "test-fixtures",
+      "semantics"
+    ],
+    "donated": "2026-04-01",
+    "notes": "HTML test fixtures from the W3C Web Platform Tests project (html/semantics subdirectories)"
+  },
+  {
+    "format": "html",
+    "path": "documents/html/html5-boilerplate/*.html",
+    "title": "HTML5 Boilerplate Templates",
+    "author": "HTML5 Boilerplate contributors",
+    "license": "MIT",
+    "source": "https://github.com/h5bp/html5-boilerplate",
+    "tags": [
+      "h5bp",
+      "html5",
+      "boilerplate",
+      "template"
+    ],
+    "donated": "2026-04-01",
+    "notes": "Starter HTML templates from the HTML5 Boilerplate project (v6, v7, main)"
   }
 ]
