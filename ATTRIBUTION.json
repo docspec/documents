@@ -206,5 +206,32 @@
     ],
     "donated": "2026-04-01",
     "notes": "Documentation pages from the Docusaurus website docs (MDX saved as .md; docs are CC-BY-4.0 per LICENSE-docs, code is MIT)"
+  },
+  {
+    "format": "odt",
+    "path": "documents/odt/libreoffice/*.odt",
+    "title": "LibreOffice Writer ODF Test Data",
+    "author": "The Document Foundation and LibreOffice contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/LibreOffice/core",
+    "tags": [
+      "libreoffice",
+      "odt",
+      "odf",
+      "test-fixtures"
+    ],
+    "donated": "2026-04-01",
+    "notes": "ODF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)"
+  },
+  {
+    "format": "odt",
+    "path": "documents/odt/odftoolkit/*.odt",
+    "title": "ODF Toolkit Test Documents",
+    "author": "The Apache Software Foundation and ODF Toolkit contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/tdf/odftoolkit",
+    "tags": ["odftoolkit", "odt", "odf", "test-fixtures"],
+    "donated": "2026-04-01",
+    "notes": "ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project"
   }
 ]

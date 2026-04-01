@@ -186,3 +186,29 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-01
 - **Notes**: Documentation pages from the Docusaurus website docs (MDX saved as .md; docs are CC-BY-4.0 per LICENSE-docs, code is MIT)
 
+---
+
+## LibreOffice Writer ODF Test Data
+
+- **Format**: `odt`
+- **Path**: `documents/odt/libreoffice/*.odt`
+- **Author**: The Document Foundation and LibreOffice contributors
+- **License**: MPL-2.0
+- **Source**: https://github.com/LibreOffice/core
+- **Tags**: `libreoffice`, `odt`, `odf`, `test-fixtures`
+- **Donated**: 2026-04-01
+- **Notes**: ODF import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)
+
+---
+
+## ODF Toolkit Test Documents
+
+- **Format**: `odt`
+- **Path**: `documents/odt/odftoolkit/*.odt`
+- **Author**: The Apache Software Foundation and ODF Toolkit contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/tdf/odftoolkit
+- **Tags**: `odftoolkit`, `odt`, `odf`, `test-fixtures`
+- **Donated**: 2026-04-01
+- **Notes**: ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project
+
