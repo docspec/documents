@@ -56,3 +56,133 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-02-17
 - **Notes**: Test fixtures originating from NLdoc
 
+---
+
+## Pandoc RTF Test Suite
+
+- **Format**: `rtf`
+- **Path**: `documents/rtf/pandoc/*.rtf`
+- **Author**: John MacFarlane and Pandoc contributors
+- **License**: GPL-2.0-or-later
+- **Source**: https://github.com/jgm/pandoc
+- **Tags**: `pandoc`, `rtf`, `test-fixtures`
+- **Donated**: 2026-04-01
+- **Notes**: RTF test fixtures from the Pandoc document converter test suite
+
+---
+
+## LibreOffice Writer RTF Test Data
+
+- **Format**: `rtf`
+- **Path**: `documents/rtf/libreoffice/*.rtf`
+- **Author**: The Document Foundation and LibreOffice contributors
+- **License**: MPL-2.0
+- **Source**: https://github.com/LibreOffice/core
+- **Tags**: `libreoffice`, `rtf`, `test-fixtures`
+- **Donated**: 2026-04-01
+- **Notes**: RTF import/export test data from LibreOffice Writer QA
+
+---
+
+## Apache POI HWPF Test Documents
+
+- **Format**: `doc`
+- **Path**: `documents/doc/apache-poi/*.doc`
+- **Author**: Apache POI contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/apache/poi
+- **Tags**: `apache-poi`, `hwpf`, `test-fixtures`
+- **Donated**: 2026-04-01
+- **Notes**: Test fixtures for the Apache POI HWPF Word processor module
+
+---
+
+## Standard Ebooks Collection
+
+- **Format**: `epub`
+- **Path**: `documents/epub/standard-ebooks/*.epub`
+- **Author**: Various (original works in public domain; ebook production by Standard Ebooks contributors)
+- **License**: CC0-1.0
+- **Source**: https://standardebooks.org
+- **Tags**: `standard-ebooks`, `epub`, `public-domain`, `literature`
+- **Donated**: 2026-04-01
+- **Notes**: High-quality EPUB ebooks from Standard Ebooks (CC0-1.0 production, public domain source texts)
+
+---
+
+## MDN Learning Area HTML Examples
+
+- **Format**: `html`
+- **Path**: `documents/html/mdn-learning-area/*.html`
+- **Author**: Mozilla Developer Network contributors
+- **License**: CC-BY-SA-2.5
+- **Source**: https://github.com/mdn/learning-area
+- **Tags**: `mdn`, `html`, `examples`, `educational`
+- **Donated**: 2026-04-01
+- **Notes**: Standalone HTML examples from MDN Web Docs learning area (introduction-to-html, multimedia-and-embedding, tables, forms)
+
+---
+
+## W3C Web Platform Tests HTML Fixtures
+
+- **Format**: `html`
+- **Path**: `documents/html/wpt/*.html`
+- **Author**: W3C Web Platform Tests contributors
+- **License**: W3C-20150513
+- **Source**: https://github.com/web-platform-tests/wpt
+- **Tags**: `w3c`, `wpt`, `html`, `test-fixtures`, `semantics`
+- **Donated**: 2026-04-01
+- **Notes**: HTML test fixtures from the W3C Web Platform Tests project (html/semantics subdirectories)
+
+---
+
+## HTML5 Boilerplate Templates
+
+- **Format**: `html`
+- **Path**: `documents/html/html5-boilerplate/*.html`
+- **Author**: HTML5 Boilerplate contributors
+- **License**: MIT
+- **Source**: https://github.com/h5bp/html5-boilerplate
+- **Tags**: `h5bp`, `html5`, `boilerplate`, `template`
+- **Donated**: 2026-04-01
+- **Notes**: Starter HTML templates from the HTML5 Boilerplate project (v6, v7, main)
+
+---
+
+## CommonMark Spec Sections
+
+- **Format**: `markdown`
+- **Path**: `documents/markdown/commonmark/*.md`
+- **Author**: John MacFarlane and CommonMark contributors
+- **License**: CC-BY-SA-4.0
+- **Source**: https://github.com/commonmark/commonmark-spec
+- **Tags**: `commonmark`, `spec`, `markdown`
+- **Donated**: 2026-04-01
+- **Notes**: Sections extracted from the CommonMark specification (spec.txt)
+
+---
+
+## The Rust Programming Language Book
+
+- **Format**: `markdown`
+- **Path**: `documents/markdown/rust-book/*.md`
+- **Author**: Steve Klabnik, Carol Nichols, and the Rust community
+- **License**: CC-BY-4.0
+- **Source**: https://github.com/rust-lang/book
+- **Tags**: `rust`, `book`, `programming`
+- **Donated**: 2026-04-01
+- **Notes**: Chapter files from the official Rust programming language book
+
+---
+
+## Docusaurus Documentation
+
+- **Format**: `markdown`
+- **Path**: `documents/markdown/docusaurus/*.md`
+- **Author**: Meta Platforms, Inc. and Docusaurus contributors
+- **License**: MIT
+- **Source**: https://github.com/facebook/docusaurus
+- **Tags**: `docusaurus`, `documentation`, `static-site`
+- **Donated**: 2026-04-01
+- **Notes**: Documentation pages from the Docusaurus website docs (MDX saved as .md)
+
