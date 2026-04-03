@@ -275,5 +275,22 @@
     ],
     "donated": "2026-04-03",
     "notes": "PDF test fixtures from the qpdf PDF transformation tool (Apache-2.0, pinned to v12.3.2)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/apache-pdfbox/*.pdf",
+    "title": "Apache PDFBox Test PDFs",
+    "author": "The Apache Software Foundation and PDFBox contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/pdfbox",
+    "tags": [
+      "apache-pdfbox",
+      "test-fixtures",
+      "forms",
+      "text-extraction",
+      "images"
+    ],
+    "donated": "2026-04-03",
+    "notes": "PDF test fixtures from Apache PDFBox Java PDF library (Apache-2.0, pinned to 3.0.7)"
   }
 ]

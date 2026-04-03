@@ -238,3 +238,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: PDF test fixtures from the qpdf PDF transformation tool (Apache-2.0, pinned to v12.3.2)
 
+---
+
+## Apache PDFBox Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/apache-pdfbox/*.pdf`
+- **Author**: The Apache Software Foundation and PDFBox contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/apache/pdfbox
+- **Tags**: `apache-pdfbox`, `test-fixtures`, `forms`, `text-extraction`, `images`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from Apache PDFBox Java PDF library (Apache-2.0, pinned to 3.0.7)
+
