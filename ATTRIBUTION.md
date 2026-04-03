@@ -264,3 +264,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: PDF test fixtures from the pikepdf Python PDF library (MPL-2.0)
 
+---
+
+## arXiv CC-BY-4.0 Open Access Papers
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/arxiv/*.pdf`
+- **Author**: Various authors (see individual papers at arxiv.org)
+- **License**: CC-BY-4.0
+- **Source**: https://arxiv.org
+- **Tags**: `arxiv`, `academic`, `text-heavy`, `equations`, `figures`, `multi-column`
+- **Donated**: 2026-04-03
+- **Notes**: CC-BY-4.0 papers from arXiv (strictly filtered by license metadata) across CS, Math, Physics, Biology, Economics, Statistics
+

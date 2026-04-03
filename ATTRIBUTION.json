@@ -308,5 +308,23 @@
     ],
     "donated": "2026-04-03",
     "notes": "PDF test fixtures from the pikepdf Python PDF library (MPL-2.0)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/arxiv/*.pdf",
+    "title": "arXiv CC-BY-4.0 Open Access Papers",
+    "author": "Various authors (see individual papers at arxiv.org)",
+    "license": "CC-BY-4.0",
+    "source": "https://arxiv.org",
+    "tags": [
+      "arxiv",
+      "academic",
+      "text-heavy",
+      "equations",
+      "figures",
+      "multi-column"
+    ],
+    "donated": "2026-04-03",
+    "notes": "CC-BY-4.0 papers from arXiv (strictly filtered by license metadata) across CS, Math, Physics, Biology, Economics, Statistics"
   }
 ]
