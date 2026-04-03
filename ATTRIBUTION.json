@@ -420,5 +420,258 @@
     ],
     "donated": "2026-04-03",
     "notes": "Scanned public domain books from Internet Archive. Includes OCR text layers and multilingual content (Arabic, Chinese, French, German, Spanish, Russian, English) for testing scanned PDF handling and non-Latin script support."
+  },
+  {
+    "author": "AbiSource Community and AbiWord contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/AbiWord/abiword",
+    "donated": "2026-04-03",
+    "notes": "ODT test fixtures from AbiWord covering complex scripts, bidirectional text, and accessibility features",
+    "path": "documents/odt/abiword/*.odt",
+    "format": "odt",
+    "title": "Abiword",
+    "tags": []
+  },
+  {
+    "author": "The Apache Software Foundation and Apache Tika contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/tika",
+    "donated": "2026-04-03",
+    "notes": "DOC parser test documents from Apache Tika, covering embedded objects, protected documents, and special character handling",
+    "path": "documents/doc/apache-tika/*.doc",
+    "format": "doc",
+    "title": "Apache Tika",
+    "tags": []
+  },
+  {
+    "author": "The Apache Software Foundation and Apache Tika contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/tika",
+    "donated": "2026-04-03",
+    "notes": "DOCX parser test documents from Apache Tika, covering edge cases and parsing robustness scenarios",
+    "path": "documents/docx/apache-tika/*.docx",
+    "format": "docx",
+    "title": "Apache Tika",
+    "tags": []
+  },
+  {
+    "author": "Aspose Pty Ltd and Aspose.Words contributors",
+    "license": "MIT",
+    "source": "https://github.com/aspose-words/Aspose.Words-for-Java",
+    "donated": "2026-04-03",
+    "notes": "Legacy DOC (Word 97-2003) example documents from Aspose.Words-for-Java, covering smart tags, legacy fields, document versions, and mail merge",
+    "path": "documents/doc/aspose-words/*.doc",
+    "format": "doc",
+    "title": "Aspose Words",
+    "tags": []
+  },
+  {
+    "author": "Aspose Pty Ltd and Aspose.Words contributors",
+    "license": "MIT",
+    "source": "https://github.com/aspose-words/Aspose.Words-for-Java",
+    "donated": "2026-04-03",
+    "notes": "DOCX example documents from Aspose.Words-for-Java, covering enterprise formatting, tables, images, and complex document layouts",
+    "path": "documents/docx/aspose-words/*.docx",
+    "format": "docx",
+    "title": "Aspose Words",
+    "tags": []
+  },
+  {
+    "author": "GitHub, Inc. and cmark-gfm contributors",
+    "license": "CC-BY-SA-4.0",
+    "source": "https://github.com/github/cmark-gfm",
+    "donated": "2026-04-03",
+    "notes": "GFM specification test cases covering tables, strikethrough, autolinks, task lists, and footnotes. Spec and extension files (spec.md, extensions.md, extensions-table-prefer-style-attributes.md) are CC-BY-SA-4.0 per YAML frontmatter; remaining benchmark/test files are BSD-2-Clause per repo COPYING. Using CC-BY-SA-4.0 for the whole group (most restrictive present).",
+    "path": "documents/markdown/cmark-gfm/*.md",
+    "format": "md",
+    "title": "Cmark Gfm",
+    "tags": []
+  },
+  {
+    "author": "Collabora Productivity and Collabora Online contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/CollaboraOnline/online",
+    "donated": "2026-04-03",
+    "notes": "ODT test fixtures from Collabora Online covering change tracking, revision marks, and collaborative editing features",
+    "path": "documents/odt/collabora/*.odt",
+    "format": "odt",
+    "title": "Collabora",
+    "tags": []
+  },
+  {
+    "author": "Plutext Pty Ltd and docx4j contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/plutext/docx4j",
+    "donated": "2026-04-03",
+    "notes": "OOXML test fixtures from docx4j, covering SmartArt, bookmarks, OpenDoPE templates, and multilingual documents",
+    "path": "documents/docx/docx4j/*.docx",
+    "format": "docx",
+    "title": "Docx4j",
+    "tags": []
+  },
+  {
+    "author": "4teamwork AG and docxcompose contributors",
+    "license": "MIT",
+    "source": "https://github.com/4teamwork/docxcompose",
+    "donated": "2026-04-03",
+    "notes": "DOCX test fixtures for document composition and merging scenarios",
+    "path": "documents/docx/docxcompose/*.docx",
+    "format": "docx",
+    "title": "Docxcompose",
+    "tags": []
+  },
+  {
+    "author": "The Hugo Authors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/gohugoio/hugoDocs",
+    "donated": "2026-04-03",
+    "notes": "Hugo static site generator documentation with complex YAML/TOML frontmatter, shortcodes, and code annotations",
+    "path": "documents/markdown/hugo-docs/*.md",
+    "format": "md",
+    "title": "Hugo Docs",
+    "tags": []
+  },
+  {
+    "author": "The Document Foundation and LibreOffice contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/LibreOffice/core",
+    "donated": "2026-04-03",
+    "notes": "WW8 (Word 97-2003) test fixtures from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)",
+    "path": "documents/doc/libreoffice/*.doc",
+    "format": "doc",
+    "title": "Libreoffice",
+    "tags": []
+  },
+  {
+    "author": "The Document Foundation and LibreOffice contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/LibreOffice/core",
+    "donated": "2026-04-03",
+    "notes": "OOXML import/export test data from LibreOffice Writer QA (triple-licensed MPL-2.0/LGPL-3.0+/GPL-3.0+; redistributed under MPL-2.0)",
+    "path": "documents/docx/libreoffice/*.docx",
+    "format": "docx",
+    "title": "Libreoffice",
+    "tags": []
+  },
+  {
+    "author": "Vitaly Puzrin, Alex Kocharin, and markdown-it contributors",
+    "license": "MIT",
+    "source": "https://github.com/markdown-it/markdown-it",
+    "donated": "2026-04-03",
+    "notes": "CommonMark-compliant parser test fixtures covering emphasis, code blocks, tables, and parsing edge cases",
+    "path": "documents/markdown/markdown-it/*.md",
+    "format": "md",
+    "title": "Markdown It",
+    "tags": []
+  },
+  {
+    "author": "Mark Harrison and markdownlint contributors",
+    "license": "MIT",
+    "source": "https://github.com/markdownlint/markdownlint",
+    "donated": "2026-04-03",
+    "notes": "Markdown linting test fixtures with intentional style violations and formatting edge cases",
+    "path": "documents/markdown/markdownlint/*.md",
+    "format": "md",
+    "title": "Markdownlint",
+    "tags": []
+  },
+  {
+    "author": "Martin Donath and mkdocs-material contributors",
+    "license": "MIT",
+    "source": "https://github.com/squidfunk/mkdocs-material",
+    "donated": "2026-04-03",
+    "notes": "MkDocs Material theme documentation with admonitions, content tabs, mermaid diagrams, and code annotations",
+    "path": "documents/markdown/mkdocs-material/*.md",
+    "format": "md",
+    "title": "Mkdocs Material",
+    "tags": []
+  },
+  {
+    "author": "Open Preservation Foundation",
+    "license": "CC0-1.0",
+    "source": "https://github.com/openpreserve/format-corpus",
+    "donated": "2026-04-03",
+    "notes": "RTF samples from the digital preservation format corpus",
+    "path": "documents/rtf/openpreserve/*.rtf",
+    "format": "rtf",
+    "title": "Openpreserve",
+    "tags": []
+  },
+  {
+    "author": "John MacFarlane and Pandoc contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/jgm/pandoc",
+    "donated": "2026-04-03",
+    "notes": "Markdown test fixtures from Pandoc covering citations, footnotes, definition lists, LaTeX math, tables, and Pandoc-specific extensions",
+    "path": "documents/markdown/pandoc-md/*.md",
+    "format": "md",
+    "title": "Pandoc Md",
+    "tags": []
+  },
+  {
+    "author": "Steve Canny and python-docx contributors",
+    "license": "MIT",
+    "source": "https://github.com/python-openxml/python-docx",
+    "donated": "2026-04-03",
+    "notes": "OOXML test fixtures from the python-docx library, covering tables, styles, hyperlinks, and document structure",
+    "path": "documents/docx/python-docx/*.docx",
+    "format": "docx",
+    "title": "Python Docx",
+    "tags": []
+  },
+  {
+    "author": "Titus Wormer and remark contributors",
+    "license": "MIT",
+    "source": "https://github.com/remarkjs/remark",
+    "donated": "2026-04-03",
+    "notes": "Markdown AST parser test fixtures covering GFM extensions, frontmatter, and markdown processing edge cases",
+    "path": "documents/markdown/remark/*.md",
+    "format": "md",
+    "title": "Remark",
+    "tags": []
+  },
+  {
+    "author": "Jon Iles and RTF Parser Kit contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/joniles/rtfparserkit",
+    "donated": "2026-04-03",
+    "notes": "RTF parser test fixtures covering diverse RTF formatting features",
+    "path": "documents/rtf/rtfparserkit/*.rtf",
+    "format": "rtf",
+    "title": "Rtfparserkit",
+    "tags": []
+  },
+  {
+    "author": "AbiSource Community and AbiWord contributors",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/AbiWord/abiword",
+    "donated": "2026-04-03",
+    "notes": "Word 97-2003 DOC test fixtures from AbiWord including import/export tests, bug regression files, and format compatibility tests",
+    "path": "documents/doc/abiword/*.doc",
+    "format": "doc",
+    "title": "AbiWord DOC Test Files",
+    "tags": [
+      "abiword",
+      "doc",
+      "word97",
+      "test-fixtures"
+    ]
+  },
+  {
+    "path": "documents/odt/openoffice/*.odt",
+    "format": "odt",
+    "title": "Apache OpenOffice Writer Test Corpus",
+    "author": "Apache OpenOffice Contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/openoffice",
+    "tags": [
+      "odt",
+      "writer",
+      "test-fixtures",
+      "openoffice",
+      "import-export"
+    ],
+    "donated": "2026-04-03",
+    "notes": "ODF Writer test fixtures from Apache OpenOffice sw/qa test suite, SDK examples, and templates. Covers import/export compatibility, formatting edge cases, and regression tests."
   }
 ]
