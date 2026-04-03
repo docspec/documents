@@ -292,5 +292,21 @@
     ],
     "donated": "2026-04-03",
     "notes": "PDF test fixtures from Apache PDFBox Java PDF library (Apache-2.0, pinned to 3.0.7)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/pikepdf/*.pdf",
+    "title": "pikepdf Test PDFs",
+    "author": "James R. Barlow and pikepdf contributors",
+    "license": "MPL-2.0",
+    "source": "https://github.com/pikepdf/pikepdf",
+    "tags": [
+      "pikepdf",
+      "test-fixtures",
+      "color-spaces",
+      "pdf-a"
+    ],
+    "donated": "2026-04-03",
+    "notes": "PDF test fixtures from the pikepdf Python PDF library (MPL-2.0)"
   }
 ]
