@@ -363,5 +363,24 @@
     ],
     "donated": "2026-04-03",
     "notes": "U.S. federal tax forms and instructions (public domain as U.S. government works; attributed as CC0-1.0)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/nasa-ntrs/*.pdf",
+    "title": "NASA Technical Reports",
+    "author": "National Aeronautics and Space Administration",
+    "license": "CC0-1.0",
+    "source": "https://ntrs.nasa.gov",
+    "tags": [
+      "nasa",
+      "government",
+      "technical-reports",
+      "text-heavy",
+      "images",
+      "tables",
+      "public-domain"
+    ],
+    "donated": "2026-04-03",
+    "notes": "NASA technical reports and publications (public domain as U.S. government works; attributed as CC0-1.0)"
   }
 ]

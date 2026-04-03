@@ -303,3 +303,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: U.S. federal tax forms and instructions (public domain as U.S. government works; attributed as CC0-1.0)
 
+---
+
+## NASA Technical Reports
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/nasa-ntrs/*.pdf`
+- **Author**: National Aeronautics and Space Administration
+- **License**: CC0-1.0
+- **Source**: https://ntrs.nasa.gov
+- **Tags**: `nasa`, `government`, `technical-reports`, `text-heavy`, `images`, `tables`, `public-domain`
+- **Donated**: 2026-04-03
+- **Notes**: NASA technical reports and publications (public domain as U.S. government works; attributed as CC0-1.0)
+
