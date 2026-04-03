@@ -329,3 +329,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: Public domain books from Project Gutenberg in PDF format (multiple languages: English, German, French, Spanish, Italian)
 
+---
+
+## Internet Archive Public Domain Scanned Books
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/internet-archive/*.pdf`
+- **Author**: Various (original works in public domain; digitization by Internet Archive)
+- **License**: CC0-1.0
+- **Source**: https://archive.org
+- **Tags**: `internet-archive`, `scanned`, `ocr`, `public-domain`, `multilingual`, `rtl`, `cjk`, `books`
+- **Donated**: 2026-04-03
+- **Notes**: Scanned public domain books from Internet Archive. Includes OCR text layers and multilingual content (Arabic, Chinese, French, German, Spanish, Russian, English) for testing scanned PDF handling and non-Latin script support.
+

@@ -400,5 +400,25 @@
     ],
     "donated": "2026-04-03",
     "notes": "Public domain books from Project Gutenberg in PDF format (multiple languages: English, German, French, Spanish, Italian)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/internet-archive/*.pdf",
+    "title": "Internet Archive Public Domain Scanned Books",
+    "author": "Various (original works in public domain; digitization by Internet Archive)",
+    "license": "CC0-1.0",
+    "source": "https://archive.org",
+    "tags": [
+      "internet-archive",
+      "scanned",
+      "ocr",
+      "public-domain",
+      "multilingual",
+      "rtl",
+      "cjk",
+      "books"
+    ],
+    "donated": "2026-04-03",
+    "notes": "Scanned public domain books from Internet Archive. Includes OCR text layers and multilingual content (Arabic, Chinese, French, German, Spanish, Russian, English) for testing scanned PDF handling and non-Latin script support."
   }
 ]
