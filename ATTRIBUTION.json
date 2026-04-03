@@ -230,8 +230,32 @@
     "author": "The Apache Software Foundation and ODF Toolkit contributors",
     "license": "Apache-2.0",
     "source": "https://github.com/tdf/odftoolkit",
-    "tags": ["odftoolkit", "odt", "odf", "test-fixtures"],
+    "tags": [
+      "odftoolkit",
+      "odt",
+      "odf",
+      "test-fixtures"
+    ],
     "donated": "2026-04-01",
     "notes": "ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/pdf-js/*.pdf",
+    "title": "Mozilla pdf.js Test PDFs",
+    "author": "Mozilla Corporation and pdf.js contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/mozilla/pdf.js",
+    "tags": [
+      "pdf-js",
+      "test-fixtures",
+      "annotations",
+      "forms",
+      "images",
+      "text-rendering",
+      "encryption"
+    ],
+    "donated": "2026-04-03",
+    "notes": "PDF test fixtures from Mozilla pdf.js viewer (Apache-2.0, pinned to v4.9.155)"
   }
 ]

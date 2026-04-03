@@ -212,3 +212,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-01
 - **Notes**: ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project
 
+---
+
+## Mozilla pdf.js Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/pdf-js/*.pdf`
+- **Author**: Mozilla Corporation and pdf.js contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/mozilla/pdf.js
+- **Tags**: `pdf-js`, `test-fixtures`, `annotations`, `forms`, `images`, `text-rendering`, `encryption`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from Mozilla pdf.js viewer (Apache-2.0, pinned to v4.9.155)
+
