@@ -212,3 +212,133 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-01
 - **Notes**: ODF DOM, validation, and specification compliance test fixtures from the ODF Toolkit project
 
+---
+
+## Mozilla pdf.js Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/pdf-js/*.pdf`
+- **Author**: Mozilla Corporation and pdf.js contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/mozilla/pdf.js
+- **Tags**: `pdf-js`, `test-fixtures`, `annotations`, `forms`, `images`, `text-rendering`, `encryption`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from Mozilla pdf.js viewer (Apache-2.0, pinned to v4.9.155)
+
+---
+
+## qpdf PDF Transformation Tool Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/qpdf/*.pdf`
+- **Author**: Jay Berkenbilt and qpdf contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/qpdf/qpdf
+- **Tags**: `qpdf`, `test-fixtures`, `encryption`, `page-operations`, `compression`, `edge-cases`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from the qpdf PDF transformation tool (Apache-2.0, pinned to v12.3.2)
+
+---
+
+## Apache PDFBox Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/apache-pdfbox/*.pdf`
+- **Author**: The Apache Software Foundation and PDFBox contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/apache/pdfbox
+- **Tags**: `apache-pdfbox`, `test-fixtures`, `forms`, `text-extraction`, `images`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from Apache PDFBox Java PDF library (Apache-2.0, pinned to 3.0.7)
+
+---
+
+## pikepdf Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/pikepdf/*.pdf`
+- **Author**: James R. Barlow and pikepdf contributors
+- **License**: MPL-2.0
+- **Source**: https://github.com/pikepdf/pikepdf
+- **Tags**: `pikepdf`, `test-fixtures`, `color-spaces`, `pdf-a`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from the pikepdf Python PDF library (MPL-2.0)
+
+---
+
+## arXiv CC-BY-4.0 Open Access Papers
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/arxiv/*.pdf`
+- **Author**: Various authors (see individual papers at arxiv.org)
+- **License**: CC-BY-4.0
+- **Source**: https://arxiv.org
+- **Tags**: `arxiv`, `academic`, `text-heavy`, `equations`, `figures`, `multi-column`
+- **Donated**: 2026-04-03
+- **Notes**: CC-BY-4.0 papers from arXiv (strictly filtered by license metadata) across CS, Math, Physics, Biology, Economics, Statistics
+
+---
+
+## OpenStax Textbook PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/openstax/*.pdf`
+- **Author**: OpenStax, Rice University
+- **License**: CC-BY-4.0
+- **Source**: https://openstax.org
+- **Tags**: `openstax`, `textbooks`, `educational`, `tables`, `images`, `equations`, `multi-column`
+- **Donated**: 2026-04-03
+- **Notes**: Open educational textbook PDFs from OpenStax (CC-BY-4.0). Chapter excerpts extracted to meet size limits.
+
+---
+
+## IRS Tax Form PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/irs-forms/*.pdf`
+- **Author**: Internal Revenue Service, U.S. Department of the Treasury
+- **License**: CC0-1.0
+- **Source**: https://www.irs.gov/forms-instructions
+- **Tags**: `irs`, `government`, `forms`, `fillable-forms`, `tables`, `public-domain`
+- **Donated**: 2026-04-03
+- **Notes**: U.S. federal tax forms and instructions (public domain as U.S. government works; attributed as CC0-1.0)
+
+---
+
+## NASA Technical Reports
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/nasa-ntrs/*.pdf`
+- **Author**: National Aeronautics and Space Administration
+- **License**: CC0-1.0
+- **Source**: https://ntrs.nasa.gov
+- **Tags**: `nasa`, `government`, `technical-reports`, `text-heavy`, `images`, `tables`, `public-domain`
+- **Donated**: 2026-04-03
+- **Notes**: NASA technical reports and publications (public domain as U.S. government works; attributed as CC0-1.0)
+
+---
+
+## Project Gutenberg Public Domain Books
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/gutenberg/*.pdf`
+- **Author**: Various (original works in public domain)
+- **License**: CC0-1.0
+- **Source**: https://www.gutenberg.org
+- **Tags**: `gutenberg`, `public-domain`, `books`, `text-heavy`, `multilingual`, `literature`
+- **Donated**: 2026-04-03
+- **Notes**: Public domain books from Project Gutenberg in PDF format (multiple languages: English, German, French, Spanish, Italian)
+
+---
+
+## Internet Archive Public Domain Scanned Books
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/internet-archive/*.pdf`
+- **Author**: Various (original works in public domain; digitization by Internet Archive)
+- **License**: CC0-1.0
+- **Source**: https://archive.org
+- **Tags**: `internet-archive`, `scanned`, `ocr`, `public-domain`, `multilingual`, `rtl`, `cjk`, `books`
+- **Donated**: 2026-04-03
+- **Notes**: Scanned public domain books from Internet Archive. Includes OCR text layers and multilingual content (Arabic, Chinese, French, German, Spanish, Russian, English) for testing scanned PDF handling and non-Latin script support.
+
