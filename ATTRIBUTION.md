@@ -290,3 +290,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: Open educational textbook PDFs from OpenStax (CC-BY-4.0). Chapter excerpts extracted to meet size limits.
 
+---
+
+## IRS Tax Form PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/irs-forms/*.pdf`
+- **Author**: Internal Revenue Service, U.S. Department of the Treasury
+- **License**: CC0-1.0
+- **Source**: https://www.irs.gov/forms-instructions
+- **Tags**: `irs`, `government`, `forms`, `fillable-forms`, `tables`, `public-domain`
+- **Donated**: 2026-04-03
+- **Notes**: U.S. federal tax forms and instructions (public domain as U.S. government works; attributed as CC0-1.0)
+

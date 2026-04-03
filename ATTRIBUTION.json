@@ -345,5 +345,23 @@
     ],
     "donated": "2026-04-03",
     "notes": "Open educational textbook PDFs from OpenStax (CC-BY-4.0). Chapter excerpts extracted to meet size limits."
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/irs-forms/*.pdf",
+    "title": "IRS Tax Form PDFs",
+    "author": "Internal Revenue Service, U.S. Department of the Treasury",
+    "license": "CC0-1.0",
+    "source": "https://www.irs.gov/forms-instructions",
+    "tags": [
+      "irs",
+      "government",
+      "forms",
+      "fillable-forms",
+      "tables",
+      "public-domain"
+    ],
+    "donated": "2026-04-03",
+    "notes": "U.S. federal tax forms and instructions (public domain as U.S. government works; attributed as CC0-1.0)"
   }
 ]
