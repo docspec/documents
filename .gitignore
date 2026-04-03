@@ -13,3 +13,11 @@ desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+# Local download/scraping scripts — NOT for committing
+scrape/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
