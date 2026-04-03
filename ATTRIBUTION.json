@@ -326,5 +326,24 @@
     ],
     "donated": "2026-04-03",
     "notes": "CC-BY-4.0 papers from arXiv (strictly filtered by license metadata) across CS, Math, Physics, Biology, Economics, Statistics"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/openstax/*.pdf",
+    "title": "OpenStax Textbook PDFs",
+    "author": "OpenStax, Rice University",
+    "license": "CC-BY-4.0",
+    "source": "https://openstax.org",
+    "tags": [
+      "openstax",
+      "textbooks",
+      "educational",
+      "tables",
+      "images",
+      "equations",
+      "multi-column"
+    ],
+    "donated": "2026-04-03",
+    "notes": "Open educational textbook PDFs from OpenStax (CC-BY-4.0). Chapter excerpts extracted to meet size limits."
   }
 ]

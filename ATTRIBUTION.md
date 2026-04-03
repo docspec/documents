@@ -277,3 +277,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: CC-BY-4.0 papers from arXiv (strictly filtered by license metadata) across CS, Math, Physics, Biology, Economics, Statistics
 
+---
+
+## OpenStax Textbook PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/openstax/*.pdf`
+- **Author**: OpenStax, Rice University
+- **License**: CC-BY-4.0
+- **Source**: https://openstax.org
+- **Tags**: `openstax`, `textbooks`, `educational`, `tables`, `images`, `equations`, `multi-column`
+- **Donated**: 2026-04-03
+- **Notes**: Open educational textbook PDFs from OpenStax (CC-BY-4.0). Chapter excerpts extracted to meet size limits.
+
