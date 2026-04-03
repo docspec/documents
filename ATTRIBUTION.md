@@ -316,3 +316,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: NASA technical reports and publications (public domain as U.S. government works; attributed as CC0-1.0)
 
+---
+
+## Project Gutenberg Public Domain Books
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/gutenberg/*.pdf`
+- **Author**: Various (original works in public domain)
+- **License**: CC0-1.0
+- **Source**: https://www.gutenberg.org
+- **Tags**: `gutenberg`, `public-domain`, `books`, `text-heavy`, `multilingual`, `literature`
+- **Donated**: 2026-04-03
+- **Notes**: Public domain books from Project Gutenberg in PDF format (multiple languages: English, German, French, Spanish, Italian)
+

@@ -382,5 +382,23 @@
     ],
     "donated": "2026-04-03",
     "notes": "NASA technical reports and publications (public domain as U.S. government works; attributed as CC0-1.0)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/gutenberg/*.pdf",
+    "title": "Project Gutenberg Public Domain Books",
+    "author": "Various (original works in public domain)",
+    "license": "CC0-1.0",
+    "source": "https://www.gutenberg.org",
+    "tags": [
+      "gutenberg",
+      "public-domain",
+      "books",
+      "text-heavy",
+      "multilingual",
+      "literature"
+    ],
+    "donated": "2026-04-03",
+    "notes": "Public domain books from Project Gutenberg in PDF format (multiple languages: English, German, French, Spanish, Italian)"
   }
 ]
