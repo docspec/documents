@@ -257,5 +257,23 @@
     ],
     "donated": "2026-04-03",
     "notes": "PDF test fixtures from Mozilla pdf.js viewer (Apache-2.0, pinned to v4.9.155)"
+  },
+  {
+    "format": "pdf",
+    "path": "documents/pdf/qpdf/*.pdf",
+    "title": "qpdf PDF Transformation Tool Test PDFs",
+    "author": "Jay Berkenbilt and qpdf contributors",
+    "license": "Apache-2.0",
+    "source": "https://github.com/qpdf/qpdf",
+    "tags": [
+      "qpdf",
+      "test-fixtures",
+      "encryption",
+      "page-operations",
+      "compression",
+      "edge-cases"
+    ],
+    "donated": "2026-04-03",
+    "notes": "PDF test fixtures from the qpdf PDF transformation tool (Apache-2.0, pinned to v12.3.2)"
   }
 ]

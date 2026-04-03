@@ -225,3 +225,16 @@ This file tracks all donated documents, their authors, licenses, and sources.
 - **Donated**: 2026-04-03
 - **Notes**: PDF test fixtures from Mozilla pdf.js viewer (Apache-2.0, pinned to v4.9.155)
 
+---
+
+## qpdf PDF Transformation Tool Test PDFs
+
+- **Format**: `pdf`
+- **Path**: `documents/pdf/qpdf/*.pdf`
+- **Author**: Jay Berkenbilt and qpdf contributors
+- **License**: Apache-2.0
+- **Source**: https://github.com/qpdf/qpdf
+- **Tags**: `qpdf`, `test-fixtures`, `encryption`, `page-operations`, `compression`, `edge-cases`
+- **Donated**: 2026-04-03
+- **Notes**: PDF test fixtures from the qpdf PDF transformation tool (Apache-2.0, pinned to v12.3.2)
+
