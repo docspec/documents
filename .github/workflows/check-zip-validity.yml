@@ -21,7 +21,7 @@ on:
 jobs:
   check-zip:
     name: Validate ZIP Structure
-    runs-on: ubuntu-latest
+    runs-on: 9xx
 
     steps:
       - name: Checkout repository
