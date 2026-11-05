@@ -17,14 +17,11 @@ on:
 jobs:
   validate-licenses:
     name: Validate SPDX Licenses
-    runs-on: ubuntu-latest
+    runs-on: 9xx
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Validate licenses
         run: ./bin/validate-licenses.sh
