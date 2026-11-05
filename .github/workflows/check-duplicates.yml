@@ -17,7 +17,7 @@ on:
 jobs:
   check-duplicates:
     name: Check for Duplicate Files
-    runs-on: ubuntu-latest
+    runs-on: 9xx
 
     steps:
       - name: Checkout repository
